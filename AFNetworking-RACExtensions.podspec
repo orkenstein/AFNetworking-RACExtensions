@@ -10,6 +10,6 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = '10.8'
   s.source_files = 'RACAFNetworking'
   s.requires_arc = true
-  s.dependency 'AFNetworking', '~> 2.5.0'
+  s.dependency 'AFNetworking', '~> 2.6.0'
   s.dependency 'ReactiveCocoa', '~> 4.0.2-alpha-1'
 end
